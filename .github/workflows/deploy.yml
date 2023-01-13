@@ -2,9 +2,10 @@ name: CI
 
 on: [push]
 
+permissions:
+  contents: write
+
 jobs:
-    permissions:
-      contents: write
 
     deploy:
         env:
