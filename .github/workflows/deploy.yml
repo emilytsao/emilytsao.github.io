@@ -3,6 +3,9 @@ name: CI
 on: [push]
 
 jobs:
+    permissions:
+      contents: write
+
     deploy:
         env:
           HUGO_VERSION: ${{ github.sha }}
