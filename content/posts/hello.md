@@ -1,6 +1,6 @@
 ---
-title: "Hello"
+title: "Welcome!"
 date: 2023-01-13T15:25:26-08:00
 ---
 
-It worked and now we know how to change it
+Hello! Welcome to my website. Here, I'll take you through my life as a college student and soon-to-be twenty-year-old. Stay tuned for more posts :)
