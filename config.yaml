@@ -181,6 +181,8 @@ markup:
     lineNos: true
     codeFences: true
   goldmark:
+    extensions:
+      typographer: false
     renderer:
       unsafe: true # enable html in markdown
 
