@@ -206,17 +206,17 @@ params:
   # Comment system
   comments:
     enabled: false
-    provider: "giscus" # custom | giscus
-    giscus: &giscus
-      repo: "Ice-Hazymoon/hugo-theme-luna"
-      repoID: "R_kgDOHQOwYw"
-      category: "Comments"
-      categoryID: "DIC_kwDOHQOwY84CP0Sy"
-      mapping: "title"
-      reactionsEnabled: 1
-      emitMetadata: 0
-      lazy: false
-      lang: "en"
+#    provider: "giscus" # custom | giscus
+#    giscus: &giscus
+#      repo: "Ice-Hazymoon/hugo-theme-luna"
+#      repoID: "R_kgDOHQOwYw"
+#      category: "Comments"
+#      categoryID: "DIC_kwDOHQOwY84CP0Sy"
+#      mapping: "title"
+#      reactionsEnabled: 1
+#      emitMetadata: 0
+#      lazy: false
+#      lang: "en"
 
   # Rss 配置
   # RSS configuration
@@ -274,7 +274,7 @@ params:
     enabled: true
     # 网站创建时间
     # Site creation time
-    creatTime: 2016/12/12
+    creatTime: 2023/01/01
   
   #  网站创建年份
   # Site creation year
@@ -325,7 +325,7 @@ params:
   twitter:
     enabled: false
     rsshub: "https://rsshub.rssforever.com" # rsshub url, see https://github.com/DIYgod/RSSHub
-    id: "GenshinImpact" # Twitter ID
+    id: "emilytsao" # Twitter ID
     # 如果为 true，Hugo 将下载图片和视频并进行优化，如果你在中国大陆地区，请谨慎启用这个选项
     # If enabled, Hugo will download videos and images from the Tweet and optimize them
     imageProcessing: true
@@ -355,11 +355,11 @@ params:
 
   # 优化中文排版，请参考：https://github.com/vinta/pangu.js
   # Optimize Chinese typography, see: https://github.com/vinta/pangu.js
-  pangu: true
+  pangu: false
 
   # 开启本地搜索插件
   # enable local search plugin
-  search: true
+  search: false
 
   # 文章页显示最后修改时间
   # For outdated reminders
